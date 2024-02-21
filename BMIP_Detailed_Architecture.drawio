@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T11:45:40.548Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="yPAHgz6yJ53j-FP8TpIz" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T04:56:50.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="s5k3VIdG34icGts6pclX" version="23.1.5" type="github">
   <diagram name="Page-1" id="ljHkqZAnSOCg1GNqxGZW">
     <mxGraphModel dx="1242" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
           <mxGeometry x="503.85" y="106" width="110.51" height="16.67" as="geometry" />
         </mxCell>
         <mxCell id="t7buzby4ZerqmVHVCHEI-63" value="Structured Data&lt;br&gt;RDF" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="200" y="120.67" width="160" height="39.33" as="geometry" />
+          <mxGeometry x="201" y="122.67" width="160" height="43" as="geometry" />
         </mxCell>
         <mxCell id="t7buzby4ZerqmVHVCHEI-64" value="Unstrucrured Data&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;(DICOM / OMICS / Images)&lt;/span&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="200" y="190" width="160" height="42.5" as="geometry" />
