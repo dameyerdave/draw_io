@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T05:24:50.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="d5zjt4VxqRro0YvWGGI3" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T07:10:33.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mhTjkla62S_wzeyBLgAp" version="23.1.5" type="github">
   <diagram name="Page-1" id="ljHkqZAnSOCg1GNqxGZW">
-    <mxGraphModel dx="955" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qeyFx8b00SiY3KIknr_p-72" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="qeyFx8b00SiY3KIknr_p-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="257.30730127576044" y="647.5" as="sourcePoint" />
+            <mxPoint x="260" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qeyFx8b00SiY3KIknr_p-19" value="Tenant BMIP" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1200" y="181" width="440" height="530" as="geometry" />
         </mxCell>
@@ -213,6 +219,78 @@
         </mxCell>
         <mxCell id="qeyFx8b00SiY3KIknr_p-45" value="SIS Web Application Firewall / Reverse Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="100" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qeyFx8b00SiY3KIknr_p-48" target="qeyFx8b00SiY3KIknr_p-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-48" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_3;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380.25" y="20" width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-63" value="Ports" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-64" value="80 (http) to be fw to 443" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-63">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-65" value="443 (https)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-63">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-67" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="qeyFx8b00SiY3KIknr_p-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="740" as="sourcePoint" />
+            <mxPoint x="1180" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-68" value="Ports" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="750" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-69" value="80 (http) to be fw to 443" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-68">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-70" value="443 (https)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-68">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-71" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1140" y="730" as="sourcePoint" />
+            <mxPoint x="1220" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-73" value="Ports" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="750" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-74" value="22 (ssh / sftp)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-73">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-75" value="80 (http) to be fw to 443" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-73">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-76" value="443 (https)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qeyFx8b00SiY3KIknr_p-73">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-78" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="741" as="sourcePoint" />
+            <mxPoint x="258.0999999999999" y="693.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-79" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.generic_firewall;" vertex="1" parent="1">
+          <mxGeometry x="240" y="677.5" width="39.59" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-82" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="qeyFx8b00SiY3KIknr_p-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="740" as="sourcePoint" />
+            <mxPoint x="1180" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-81" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.generic_firewall;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="677.5" width="39.59" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-83" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="810" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qeyFx8b00SiY3KIknr_p-84" value="Data Buckets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="825" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
